@@ -12,3 +12,7 @@ print(myDetails)
 print(myDetails.get("subject"))
 dict1 = dict(Hello = "Greeting", name = "Identity") # Dictionary Constructor
 print(dict1)
+print(myDetails.keys())
+print(myDetails.values())
+print(myDetails.items())
+print(type(myDetails.items()))
