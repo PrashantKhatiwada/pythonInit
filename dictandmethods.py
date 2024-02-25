@@ -16,3 +16,27 @@ print(myDetails.keys())
 print(myDetails.values())
 print(myDetails.items())
 print(type(myDetails.items()))
+
+#copying a dictionary
+
+dict2 = dict1.copy()
+print(dict2)
+
+# Nested Dictionary
+
+dict3 = {
+    "std1": {
+        "name": "Prashant",
+        "marks": 99
+    },
+
+    "std2": {
+        "name": "Ram",
+        "marks": 10
+    }
+}
+
+print(dict3)
+print(dict3['std1']['name']) # accessing a nested loop item
+
+
