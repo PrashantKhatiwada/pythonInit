@@ -21,3 +21,8 @@ print(l1.index(343))
 
 list1 = list([1,2,3,4,5]) # List Constructor
 print(list1)
+
+# List comprehension
+aList = [1,5,6,7]
+anotherList = [x for x in aList]
+print(anotherList)
